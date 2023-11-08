@@ -1,9 +1,9 @@
 name: Sample GH workflow
 on: [push, workflow_dispatch]
 jobs:
-	job1:
-		name:
-		runs-on: ubuntu-latest
-		steps:
-			- name:
-			- uses: action/checkout@v3
+  job1:
+    name: new workflow
+    runs-on: ubuntu-latest
+    steps:
+      - name: first step
+      - run: echo "Hello World"
